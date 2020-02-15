@@ -75,13 +75,31 @@ print (k)
 #7) Define a function that prints your name.
 def myName (name):
     return name
-q = name ("quynhAnh")
+q = myName("quynhAnh")
 print (q)
+
 #8) Define a function that takes in a string that is the name of a color. If that string is equal to your favorite color, it prints "That's my favorite color!" If it is not, it prints "That is not my favorite color. Try again."
-
-
+def compare_colors(fav, color):
+    if (color==fav) :
+        print("That's my favorite color")
+    else:
+        print("Thats not my favorite color, try again")
+w = compare_colors("blue","blue")
+print(w)
+        
 #9) Define a function that takes in a number. If the number is not equal to zero, the function runs a loop until the number reaches 0. HINT: Within the loop, keep subtracting 1 from the number.
-
-'''YOUR OWN FUNCTION'''
+def compare_two_numbers(num1,num2):
+    num1=4
+    while num1 > 0:
+        print(num1)
+        num1 -=1
 
 #10) Create your own function that solves any problem you can think of.
+def compare_animals(best, animal):
+    if (animal==best) :
+        print("That's the best")
+    else:
+        print("That animal is not the best")
+u = compare_colors("lions","seals")
+print(u)
+
